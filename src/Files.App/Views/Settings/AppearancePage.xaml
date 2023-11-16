@@ -38,9 +38,7 @@
 					</Grid.RowDefinitions>
 					<!--  Background  -->
 					<Border
-						Grid.RowSpan="2"
-						Height="66"
-						Background="{x:Bind BackgroundColor, Converter={StaticResource StringToBrushConverter}, Mode=OneWay}"
+						Grid.RowSpan="2" Height="66" Background="{x:Bind BackgroundColor, Converter={StaticResource StringToBrushConverter}, Mode=OneWay}"
 						CornerRadius="4,4,0,0" />
 
 					<!--  Tab Bar  -->
