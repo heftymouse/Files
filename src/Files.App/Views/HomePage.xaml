@@ -22,7 +22,7 @@
 	<UserControl.Resources>
 
 		<!--  Custom Expander Style With Disabled Up/down Animations  -->
-		<Style BasedOn="{StaticResource NoUpDownAnimationExpanderStyle}" TargetType="Expander" />
+		<Style BasedOn="{StaticResource NoUpDownAnimationExpanderStyle}"   TargetType="Expander" />
 
 		<Thickness x:Key="ExpanderChevronMargin">0,0,0,0</Thickness>
 		<x:Double x:Key="ExpanderChevronButtonSize">16</x:Double>
